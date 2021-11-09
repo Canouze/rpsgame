@@ -1,6 +1,6 @@
 function game(x){
 	var userMove = parseInt(x.value);
-	var compMove = Math.floor(Math.random() * 2);
+	var compMove = Math.floor(Math.random() * 3);
 	if(userMove==compMove){
 		if(userMove==0){
 			alert("It's a draw, you both chose Rock!");
